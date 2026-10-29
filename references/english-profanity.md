@@ -2,6 +2,22 @@
 
 Register and force change by relationship, workplace, and country. Use profanity as a voice for the code or situation, not abuse aimed at an individual. Some British and Australian expressions can sound unusual elsewhere; choose idioms naturally rather than stacking them mechanically.
 
+## How to choose an expression
+
+The lists are organized by variety and then by usage. **Common/intensifiers** include modifiers (`damn`, `bloody`) and mild interjections; **strong/very strong** entries vary greatly in force; **idioms, sarcasm, humor** should be used as intact constructions; **technical frustration/satisfaction** gives sentence patterns, not fixed templates. Check the grammatical role before placing an expression: “the damn test” (modifier), “damn, the test failed” (interjection), “the test is damn slow” (adverbial intensifier). Do not translate an idiom literally or use several expressions just to raise the profanity count.
+
+### Grammatical and semantic roles
+
+- **Exclamations:** `goddammit`, `holy shit`, `bloody hell`. These can stand at a sentence edge; they do not replace the action verb.
+- **Adjective modifiers:** `damn`, `fucking`, `bloody`, `shitty`. Put them before the noun or adjective they modify (`the damn cache`, `a fucking slow lookup`).
+- **Intensifiers:** `fucking`, `bloody`, `hellishly` (less profane). Place them in a natural adverb position (`fucking slow`, `works bloody well`).
+- **Frustration / disapproval:** `bullshit`, `a shitshow`, `a right mess`. Use only when the change or evidence supports the judgment.
+- **Celebration / relief:** `finally`, `badass`, `bloody brilliant`. Do not imply success unless the change achieved it.
+- **Sarcasm / technical complaints:** `for fuck's sake`, `what the hell`, `the dog's breakfast`. Keep sarcasm readable and aimed at software or circumstances.
+- **Compound expressions:** `clusterfuck`, `shitshow`, `pain in the ass/arse`. Treat established compounds as units rather than inventing combinations mechanically.
+
+`Cunt`, `motherfucker`, `wanker`, and similar person-directed insults carry high force. Do not aim insults at people; avoid identity-based slurs, threats, and targeted abuse. British `bollocks` can mean nonsense, while “the dog's bollocks” can mean excellent; Australian `rooted` can mean broken. Prefer the requested variety, and use broadly understood English when no variety is known.
+
 ## American English
 
 **Common / intensifiers:** damn, hell, crap, crappy, pissed, pissed off, screwed, screwed up, freaking, freaking ridiculous, goddamn, goddammit, son of a gun (mild), what the heck (mild), for crying out loud (mild).

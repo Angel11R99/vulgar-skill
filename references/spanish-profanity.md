@@ -2,6 +2,22 @@
 
 Expressions vary by age, relationship, tone, and locality. Strong words below are ordinary profanity, not invitations to target people. Several items are idioms whose force shifts by country. Use local forms only when the voice fits; do not pass regional slang off as universal. A phrase marked humorous is often playful among peers but may still offend.
 
+## How to choose an expression
+
+Use the regional entries as a reference, not a word-substitution table. The lists below group vocabulary within each country by usage: **common/frustration** expressions often work as exclamations or situation labels; **strong/very strong** entries include adjectives, nouns, and intensifiers; **idioms/sarcasm/humor** are complete constructions whose tone depends on context; **technical frustration/satisfaction** and **natural combinations** show plausible sentence patterns. These roles are not interchangeable. Fit gender, number, and word order to the noun (`la puta validación`, `el maldito error`, `las jodidas pruebas`).
+
+### Grammatical and semantic roles
+
+- **Exclamations:** `coño`, `carajo`, `joder`, `la puta madre`. Place them where a native speaker would pause or conclude; they do not automatically modify the next verb.
+- **Adjective modifiers:** `maldito`, `pinche`, `jodido`, `hijueputa`. Match the noun's gender and number when the expression inflects.
+- **Intensifiers:** `jodidamente`, `recontra`, `berraco` (regional and context-dependent). Use only where the syntax supports an adverb or adjective.
+- **Frustration / disapproval:** `qué vaina`, `qué quilombo`, `menuda mierda`. These characterize a situation; don't imply an unverified defect.
+- **Celebration / relief:** `quedó de puta madre`, `por fin`, `quedó una chimba` (regional). These assert success and should match the actual result.
+- **Sarcasm / technical complaints:** `manda huevos`, `qué gonorrea de bug`, `qué ladilla`. Keep the target as code or circumstance, not a person.
+- **Compound expressions:** `la concha de la lora`, `vaina del diablo`, `de una puta vez`. Keep idioms intact and regional; do not assemble new combinations by mechanically joining catalog entries.
+
+Words such as `vaina`, `arrecho`, `boludo`, `huevón`, `cerote`, and `marica` are strongly context-sensitive. Notes under each country indicate where an entry is positive, mild, or potentially insulting; skip it when the intended reading is uncertain. Terms identified as insults or highly sensitive should not be used to address people.
+
 ## Dominican Republic
 
 **Common / frustration:** vaina (thing, mess; very context-dependent), diache (mild exclamation), caramba, qué vaina, maldita vaina, qué jodida vaina, un lío, qué lío.

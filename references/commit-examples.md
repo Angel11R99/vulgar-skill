@@ -1,84 +1,156 @@
 # Commit message examples
 
-Illustrative only: real messages must describe the inspected changes. Strong profanity is intentional. A commit body is shown after a blank line.
+These examples are manually reviewed for technical truth, language consistency, grammar, regional fit, and Conventional Commits syntax. In real use, derive the claim from the diff; examples are not templates to apply blindly. Each regional example describes the same change: add the missing image files to the blog. The English examples do the same.
 
-1. `feat(auth): add fucking passkey support`
-2. `fix(api): stop this bullshit retry loop`
-3. `refactor(db): untangle the damn migration mess`
-4. `perf(search): make this shitbox query fast`
-5. `docs(readme): explain the bloody install steps`
-6. `test(cache): cover the fucked-up expiry edge case`
-7. `build(deps): bump the goddamn compiler version`
-8. `ci(lint): stop the bollocks job from failing on tags`
-9. `chore(release): ship the damn thing already`
-10. `style(ui): fix the ugly-ass spacing`
-11. `revert(api): undo that spectacularly bad shitshow`
-12. `fix(auth): arreglar esta puta mierda del login`
-13. `feat(export): añadir salida CSV, coño, de una vez`
-14. `fix(api): pinche chingadera rejects expired tokens`
-15. `refactor(db): limpiar este pinche desmadre de queries de mierda`
-16. `perf(cache): speed up this shitty cache and its fucked-up lookups`
-17. `fix(ui): coño, fix this goddamn layout before it breaks again`
-18. `test(forms): cubrir esta cagada del formulario`
-19. `docs(api): joder, aclarar el límite de paginación`
-20. `fix(queue): qué quilombo, retry temporary jobs correctly`
-21. `feat(cli): add a bloody useful dry-run mode`
-22. `fix(parser): bollocks, handle the empty final line`
-23. `perf(images): stop doing the same damn thumbnail work twice`
-24. `chore(config): clean up this dog's breakfast of defaults`
-25. `fix(deploy): this build is cactus, restore the health check`
-26. `feat(logs): add a bloody handy request identifier`
-27. `fix(auth): esta vaina no renueva el token, coño`
-28. `refactor(ui): separate the damn date formatter from the component`
-29. `test(router): cover the buggered fallback path`
-30. `fix(upload): reject bullshit MIME types before storage`
-31. `fix(cache): qué gonorrea de bug, evict stale entries`
-32. `feat(search): filtrar por estado activo, juepucha`
-33. `fix(session): qué ladilla, preserve the secure cookie`
-34. `perf(db): this query was slower than hell; add the missing index`
-35. `docs(setup): menuda mierda de instrucciones, document first run`
-36. `fix(forms): la puta madre, validate the empty field`
-37. `build(android): stop the goddamn Gradle task from swallowing errors`
-38. `ci(test): make the flaky suite fail loudly, for fuck's sake`
-39. `feat(profile): add avatar cropping, coño, por fin`
-40. `fix(api): qué cagada de deploy, restore the health endpoint`
-41. `refactor(auth): split token validation from that legacy shit`
-42. `style(web): align the bloody menu without breaking mobile`
-43. `revert(config): undo the pinche timeout change`
-44. `fix(payment): prevent a fucked-up duplicate charge`
-45. `perf(render): render the damn dashboard in half the time`
-46. `test(import): cover the cabrón CSV with quoted commas`
-47. `chore(deps): remove this useless pile of crap`
-48. `fix(worker): this pije bug keeps eating jobs, ack after processing`
-49. `feat(api)!: remove the old damn response envelope`
+## One change, different voices
 
-    BREAKING CHANGE: clients must read the payload from data instead of result.
+1. Dominican Spanish: `fix(blog): se agregaron las imágenes que faltaban, coño`
+2. Mexican Spanish: `fix(blog): por fin se agregaron las pinches imágenes que faltaban`
+3. Peninsular Spanish: `fix(blog): añadidas las jodidas imágenes que faltaban`
+4. Argentine Spanish: `fix(blog): por fin se agregaron las imágenes que faltaban, la puta madre`
+5. Colombian Spanish: `fix(blog): se agregaron las hijueputas imágenes que faltaban`
+6. American English: `fix(blog): finally added the damn missing images`
+7. British English: `fix(blog): added the bloody missing images at last`
+8. Australian English: `fix(blog): finally added the bloody missing images`
 
-50. `fix(auth): stop the fucking loop`
-51. `fix(api): stop this fucking retry loop and its bullshit backoff`
-52. `refactor(db): untangle this goddamn query mess, coño`
-53. `feat(cli): add the damn dry run, no mames`
-54. `fix(cache): qué mierda, evict the stale key before it fucks up the response`
-55. `test(ui): bloody hell, cover the broken focus trap`
+## English subjects
+
+9. `feat(auth): add the damn passkey option`
+10. `fix(api): stop retrying requests after the deadline`
+11. `refactor(db): untangle the goddamn migration dependencies`
+12. `perf(search): cache the slow query result`
+13. `docs(readme): clarify the bloody installation steps`
+14. `test(cache): cover expiry at the damn boundary`
+15. `build(deps): update the compiler version`
+16. `ci(lint): run the bloody check on release tags`
+17. `chore(release): publish the damn changelog`
+18. `style(ui): fix the awkward spacing`
+19. `revert(api): undo the broken pagination change`
+20. `fix(auth): stop the fucking refresh loop`
+21. `feat(export): add CSV output, finally`
+22. `fix(api): use the damn middleware to reject expired tokens`
+23. `refactor(db): split query construction from execution`
+24. `perf(cache): avoid repeating the same expensive lookup`
+25. `fix(ui): prevent the overflow from breaking the layout`
+26. `test(forms): cover empty-field validation`
+27. `docs(api): explain the pagination limit, for fuck's sake`
+28. `fix(queue): retry jobs only after transient failures`
+29. `feat(cli): add a bloody useful dry-run mode`
+30. `fix(parser): handle the empty final line`
+31. `perf(images): reuse each decoded thumbnail`
+32. `chore(config): remove the dog's breakfast of defaults`
+33. `fix(deploy): restore the missing health check`
+34. `feat(logs): add a bloody handy request identifier`
+35. `refactor(ui): separate date formatting from the component`
+36. `test(router): cover the broken fallback path`
+37. `fix(upload): reject unsupported MIME types before storage`
+38. `fix(cache): evict stale entries before they poison responses`
+39. `feat(search): add a filter for active records`
+40. `fix(session): preserve the secure cookie on renewal`
+41. `perf(db): add the missing index to the damn slow query`
+42. `docs(setup): document the first-run environment variables`
+43. `fix(forms): reject whitespace-only input`
+44. `build(android): report errors from the Gradle task`
+45. `ci(test): rerun the flaky suite only when requested`
+46. `feat(profile): add avatar cropping, finally`
+47. `fix(api): restore the health endpoint after the deployment change`
+48. `refactor(auth): split token validation from legacy parsing`
+49. `style(web): align the menu on small screens`
+50. `revert(config): undo the timeout change`
+51. `fix(payment): prevent duplicate charges after retries`
+52. `perf(render): render the dashboard without repeating the damn query`
+53. `test(import): cover CSV fields containing quoted commas`
+54. `chore(deps): remove the obsolete package`
+55. `fix(worker): acknowledge jobs only after processing succeeds`
+56. `feat(api)!: remove the old response envelope`
+
+    `BREAKING CHANGE: clients must read the payload from data instead of result.`
+
+## Spanish subjects
+
+57. `fix(auth): corregido el maldito error de autenticación`
+58. `feat(gallery): implementada la galería de imágenes, por fin`
+59. `fix(images): se agregaron las imágenes que faltaban, coño`
+60. `refactor(api): eliminadas las dependencias obsoletas de una puta vez`
+61. `perf(cache): optimizada la consulta que iba jodidamente lenta`
+62. `docs(api): aclarado el límite de paginación, coño`
+63. `test(forms): cubierta la validación del campo vacío`
+64. `build(android): corregida la tarea de Gradle que se tragaba los errores`
+65. `ci(lint): ejecutada la comprobación también en las etiquetas de versión`
+66. `chore(release): publicado el maldito registro de cambios`
+67. `style(ui): corregido el espaciado del menú`
+68. `revert(api): revertido el cambio de paginación que rompía los enlaces`
+69. `fix(auth): detenido el puto ciclo de renovación`
+70. `feat(export): agregada la salida CSV, por fin`
+71. `fix(api): rechazados los tokens vencidos antes de procesarlos`
+72. `refactor(db): separada la construcción de consultas de su ejecución`
+73. `perf(cache): evitadas las búsquedas duplicadas, de una vez`
+74. `fix(ui): corregido el desbordamiento que rompía el diseño`
+75. `test(forms): cubierta la validación del campo vacío, coño`
+76. `docs(api): explicado el límite de paginación para que no haya más líos`
+77. `fix(queue): reintentados solo los trabajos con fallos temporales`
+78. `feat(cli): agregada una opción de simulación, carajo`
+79. `fix(parser): gestionada la última línea vacía`
+80. `perf(images): reutilizadas las miniaturas ya decodificadas`
+81. `chore(config): eliminados los valores predeterminados obsoletos`
+82. `fix(deploy): restaurada la comprobación de estado que faltaba`
+83. `feat(logs): agregado un identificador de petición, por fin`
+84. `refactor(ui): separado el formato de fechas del componente`
+85. `test(router): cubierta la ruta alternativa que fallaba`
+86. `fix(upload): rechazados los tipos MIME no admitidos antes de guardar`
+87. `fix(cache): eliminadas las entradas vencidas antes de que jodan la respuesta`
+88. `feat(search): agregado el filtro de registros activos`
+89. `fix(session): conservada la cookie segura al renovar la sesión`
+90. `perf(db): agregada la maldita entrada que faltaba en el índice`
+91. `docs(setup): documentadas las variables necesarias para el primer arranque`
+92. `fix(forms): rechazadas las entradas que solo contienen espacios`
+93. `build(android): mostrados los errores de la tarea de Gradle`
+94. `ci(test): repetida la suite inestable solo cuando se solicita`
+95. `feat(profile): agregada la opción de recortar el avatar, por fin`
+96. `fix(api): restaurado el endpoint de estado tras el cambio de despliegue`
+97. `refactor(auth): separada la validación de tokens del análisis heredado`
+98. `style(web): alineado el menú en pantallas pequeñas`
+99. `revert(config): deshecho el cambio de timeout`
+100. `fix(payment): evitados los cobros duplicados tras los reintentos`
+101. `perf(render): eliminada la consulta jodidamente repetida del panel`
+102. `test(import): cubierta la importación de campos CSV con comillas`
+103. `chore(deps): eliminado el paquete obsoleto de una puta vez`
+104. `fix(worker): confirmados los trabajos solo después de procesarlos`
+
+## Correct versus incorrect
+
+Same evidence: missing image files were added to a blog.
+
+Correct Spanish: `fix(blog): se agregaron las malditas imágenes que faltaban`
+
+Correct English: `fix(blog): finally added the damn missing images`
+
+Incorrect mixed-language description: `fix(blog): arreglar this fucking imágenes`
+
+Incorrect invented action: `fix(blog): fixed the fucking image upload system` — adding image files does not establish that upload behavior was repaired.
+
+Incorrect disconnected profanity: `fix(blog): added the images, coño joder mierda` — the exclamations do not form a natural sentence.
+
+Incorrect action and grammar: `fix(images): fuck upload the missing images` — this is not idiomatic English and changes the action.
 
 ## Commit body examples
 
-### Frustrated bug fix
+### Frustrated fix
 
 ```text
-fix(auth): stop this fucking refresh loop
+fix(auth): stop the damn refresh loop
 
-The expired access token kept triggering another refresh request. Reuse the
-in-flight promise and stop this bullshit pile-up when refresh fails.
+An expired access token triggered another refresh request. Reuse the
+in-flight promise and stop the retry pile-up when refresh fails.
 ```
 
-### Sarcastic refactor
+### Spanish refactor
 
 ```text
-refactor(config): split the legacy crap into named settings
+refactor(config): separados los valores heredados en opciones claras
 
-One flag used to mean three different things, because apparently that was a
-good idea. Keep compatibility at the boundary and make the internals sane.
+Una misma bandera controlaba tres comportamientos distintos. Se conserva
+la compatibilidad en la interfaz y se simplifica la lógica interna.
 ```
 
 ### Celebratory feature
@@ -87,23 +159,23 @@ good idea. Keep compatibility at the boundary and make the internals sane.
 feat(search): add saved filters, coño, por fin
 
 Persist each user's filter choices and restore them on return. No more
-rebuilding the same damn query every morning.
+rebuilding the same query every morning.
 ```
 
-### Performance win
+### Performance improvement
 
 ```text
-perf(images): stop decoding the same damn thumbnail twice
+perf(images): reuse each decoded thumbnail
 
-Reuse the decoded image within a request. The old path was doing extra work
-for absolutely no fucking reason.
+The request now decodes an image once and reuses it. That removes the
+same damn work from the repeated render path.
 ```
 
-### Documentation frustration
+### Documentation
 
 ```text
-docs(deploy): explain the bloody environment variables
+docs(deploy): document the bloody environment variables
 
-Document the required values and safe local defaults. The old instructions
-left out the one setting that made the whole damn service boot.
+List the required values and safe local defaults so the service starts
+without guesswork.
 ```
