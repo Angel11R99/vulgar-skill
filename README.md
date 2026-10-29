@@ -1,73 +1,48 @@
 # Vulgar Skill
 
-Generate technically accurate Conventional Commit messages with multilingual English and regional Spanish profanity, intelligent variation, and configurable intensity.
+An instruction-based Agent Skill for generating technically accurate, funny, varied, profanity-heavy Git commit messages. It speaks English, regional Spanish, and Spanglish while preserving Conventional Commits.
 
-This Agent Skill is intentionally vulgar. It favors multiple swear words per message at medium and high intensity while keeping the actual code change clear. Profanity targets frustrating code or behavior, never people or protected groups.
+> **Explicit language:** this Skill deliberately uses uncensored ordinary profanity. Generated messages may be inappropriate for professional, corporate, public, or customer-facing repositories. Review before use.
 
-## Install
+## Features
 
-Replace `OWNER` with the public GitHub username or organization that publishes this repository:
+- Root-level Agent Skill for skills.sh and compatible coding agents.
+- English-only, Spanish-only, and Spanglish messages.
+- Regional vocabulary from 20 Spanish-speaking countries, plus American, British, Australian, and international English.
+- Contextual humor and frustration, with one or multiple profanities as grammar allows.
+- Conventional Commit types, scopes, breaking change markers, and footers.
+- Anti-repetition informed by conversation context and optional recent Git history.
+- No scripts, dependencies, hooks, databases, or runtime setup.
 
-```sh
+## Installation
+
+Replace `OWNER` with the GitHub username or organization that publishes the repository:
+
+```bash
 npx skills add OWNER/vulgar-skill
-npx skills add OWNER/vulgar-skill -a codex
 npx skills add OWNER/vulgar-skill -g
 ```
 
-Local discovery and installation from the repository root:
+For agent-specific installation, use the CLI's supported selector, for example `npx skills add OWNER/vulgar-skill -a codex`. CLI options and supported agent identifiers can change; consult `npx skills add --help`.
 
-```sh
-npx skills add ./ --list
-npx skills add ./
+Installation makes the Skill available to a compatible agent; it does not automatically rewrite all manual Git commits. Ask the agent to draft a commit message, or explicitly invoke the Skill in an agent that supports explicit skills.
+
+## Usage
+
+Ask your compatible coding agent to generate a commit message for the staged changes. The Skill checks the actual diff, selects a fitting Conventional Commit type, describes the technical change, then adds an appropriate regional voice. You can specify a language or region, such as “Use Mexican Spanish” or “Make it Spanglish.”
+
+Example:
+
+```text
+fix(auth): arreglar esta puta mierda del login
 ```
 
-The skills CLI installs the skill for compatible agents. Check its current help for supported agent identifiers and global install behavior. A public GitHub repo and successful install do not guarantee immediate indexing or ranking on skills.sh. Remote install has not been tested unless a maintainer records that validation here.
-
-## Compatible agents
-
-Designed for Agent Skills-compatible coding agents, including OpenAI Codex, Claude Code, Cursor, OpenCode, and GitHub Copilot coding agents. Install through `npx skills` where supported. Optional agent integration can reference this skill from that agent's project instructions; no `AGENTS.md`, `CLAUDE.md`, machine path, hook, or global Git setting is required.
-
-## Coverage and behavior
-
-- English: American, British, Australian.
-- Spanish: Dominican, Mexican, Spanish, Argentine, Colombian, Venezuelan, and broader regional expressions.
-- Conventional Commits types, scopes, breaking change markers, and footers.
-- Default/high intensity uses two or more profanity terms; medium uses two moderate terms; low uses one mild term. Ask for clean output to disable profanity.
-- Language and locale rotate when no preference is given. The skill respects explicit language and avoids repeating recent phrasing when history is available.
-- It reads the actual diff before describing technical changes. Scripts are optional and standard-library only.
-
-### Intensity
-
-Choose `low`, `medium`, or `high` in your request. Low keeps the message mildly irreverent. Medium uses two moderate terms. High is brutally vulgar with multiple strong terms. The technical description always remains accurate and readable.
-
-### Agent integration
-
-The same skill directory works across compatible agents. Install for one agent with `npx skills add OWNER/vulgar-skill -a claude-code` (replace the agent identifier with one shown by the CLI). Alternatively, use each agent's standard skills directory or have an existing project instruction file reference the installed `SKILL.md`. No agent-specific wrapper is needed.
-
-## Examples
-
-See [examples/commits.md](examples/commits.md) for 30 example messages. Catalog term counts are computed from the JSON catalogs; use `python scripts/validate_catalog.py` to print them. Counts are not advertised here as hand-verified statistics.
-
-## Validation
-
-Python 3.8+ is optional. No third-party packages are required.
-
-```sh
-python scripts/validate_catalog.py
-python -m unittest discover -s tests -v
-python scripts/validate_commit.py "fix(auth): stop the damn token refresh loop"
-```
-
-The generator takes a technical description and optional Conventional Commit type/scope, language, region, intensity, and previous message arguments. See `python scripts/generate_commit.py --help`.
+See [50+ examples](references/commit-examples.md) and the [Spanish](references/spanish-profanity.md) and [English](references/english-profanity.md) expression catalogs.
 
 ## Contributing
 
-Open an issue or pull request with focused changes. Catalog entries should be genuine, locally used expressions with a language and region specified. Explain regional nuance and avoid slurs, threats, or identity-based insults. Keep technical documentation in English, data UTF-8, dependencies optional, and tests deterministic. Validate JSON, scripts, and relative links before submitting.
-
-## Disclaimer
-
-Generated commit messages may be inappropriate for professional, corporate, public, or customer-facing repositories. Review every message before using it.
+Contributions should use authentic expressions, preserve regional context, and avoid fabricating vocabulary to inflate counts. Include usage notes where meanings vary by country. Keep the project lightweight and Markdown-only; do not add scripts, dependencies, hooks, or generated catalogs.
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT; see [LICENSE](LICENSE).
