@@ -16,14 +16,12 @@ An instruction-based Agent Skill for generating technically accurate, funny, var
 
 ## Installation
 
-Replace `OWNER` with the GitHub username or organization that publishes the repository:
-
 ```bash
-npx skills add OWNER/vulgar-skill
-npx skills add OWNER/vulgar-skill -g
+npx skills add Angel11R99/vulgar-skill
+npx skills add Angel11R99/vulgar-skill -g
 ```
 
-For agent-specific installation, use the CLI's supported selector, for example `npx skills add OWNER/vulgar-skill -a codex`. CLI options and supported agent identifiers can change; consult `npx skills add --help`.
+For agent-specific installation, use the CLI's supported selector, for example `npx skills add Angel11R99/vulgar-skill -a codex`. CLI options and supported agent identifiers can change; consult `npx skills add --help`.
 
 Installation makes the Skill available to a compatible agent; it does not automatically rewrite all manual Git commits. Ask the agent to draft a commit message, or explicitly invoke the Skill in an agent that supports explicit skills.
 
