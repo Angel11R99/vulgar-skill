@@ -102,6 +102,8 @@ Words such as `vaina`, `arrecho`, `boludo`, `huevón`, `cerote`, and `marica` ar
 
 **More natural combinations:** verga, otra vez el mismo bug, qué coño de timeout, una ladilla completa, está arrechísimo el fix (positive), tremenda vaina rota, qué bolas con CI, quedó fino fino (good; not vulgar), qué cagada tan grande, se jodió la cuestión.
 
+**Variety reminder:** `qué ladilla` is only one option, and it specifically conveys annoyance or tediousness. Do not use it as a catch-all Venezuelan marker or repeat it by default. Match the sentence's meaning: `vaina` can name an unspecified thing or situation; `coño`, `verga`, and `carajo` can work as exclamations with different force; `arrecho` changes meaning with context; `hecho verga` describes a wrecked state; `quedó fina` signals a positive result; `se jodió la cuestión` reports a failure. Rotate only among expressions that fit the actual change, and don't force profanity into a sentence where it doesn't fit.
+
 ## Puerto Rico
 
 **Common / frustration:** bendito (often mild exasperation), qué revolú (mess), algarete (out of control), diantre (mild), puñeta (strong exclamation).

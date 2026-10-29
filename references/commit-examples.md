@@ -117,6 +117,29 @@ These examples are manually reviewed for technical truth, language consistency, 
 103. `chore(deps): eliminado el paquete obsoleto de una puta vez`
 104. `fix(worker): confirmados los trabajos solo después de procesarlos`
 
+## Venezuelan Spanish: choose by meaning, not by catchphrase
+
+These examples use different Venezuelan expressions because they describe different situations. `Qué ladilla` is appropriate for something tedious or annoying; it is not a universal regional stamp.
+
+- Annoying repeated test failure: `test(ci): corregida esa ladilla de prueba que fallaba al azar`
+- Broken deployment: `fix(deploy): restaurado el servicio que se fue a la verga`
+- Added missing files: `fix(blog): agregadas las imágenes que faltaban, coño`
+- Successful interface improvement: `feat(ui): por fin quedó fina la navegación móvil`
+- Configuration failure: `fix(config): corregida la vaina que impedía iniciar el servicio`
+- Failed merge: `fix(merge): resuelto el conflicto antes de que se jodiera todo`
+- Serious defect, strong tone: `fix(api): corregida esa cagada que tumbaba el endpoint`
+- Slow database query: `perf(db): acelerada la consulta de mierda que congelaba el panel`
+
+Avoid mechanically repeating one expression across unrelated commits, for example:
+
+```text
+fix(api): corregido el bug, qué ladilla
+fix(deploy): arreglado el deploy, qué ladilla
+feat(ui): agregado el menú, qué ladilla
+```
+
+The repetition gives every change the same annoyed tone and makes the phrase feel pasted on. Select wording that matches each change, and vary sentence structure as well as vocabulary.
+
 ## Correct versus incorrect
 
 Same evidence: missing image files were added to a blog.
